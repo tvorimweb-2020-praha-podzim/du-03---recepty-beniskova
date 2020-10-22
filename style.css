@@ -40,3 +40,58 @@ notebook/pc:
 */
 
 /* tvoje styly sem */
+
+/*až budu mít větší obrázky zkusím použít
+    filter: alpha(opacity=110);
+	-moz-opacity: 1.1;
+	-khtml-opacity: 1.1;
+	opacity: 1.1;*/
+
+.hlavni-recept{
+    background-image: url(images/burger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 33.3%;
+}
+.recept-recept2{
+    background-image: url(images/sushi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recept-recept3{
+    background-image: url(images/rajcata.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recept-recept4{
+    background-image: url(images/kure.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recept-recept5{
+    background-image: url(images/grilovani.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    color: #ffffff;
+}
+.recept-kategorie,
+.recept-komentar{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+h2{
+    font-weight: 800;
+}
+.doporucujeme{
+    display: flex;
+}
+.sloupec{
+    flex-basis: 33.3%;
+}
+/*@media screen and (min-height: 200px){
+    .hlavni-recept{
+        font-size: 1.75rem;
+    }
+}*/
