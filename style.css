@@ -48,6 +48,9 @@ notebook/pc:
     background-size: cover;
     min-height: 200px;
     border-bottom: 2px solid #ffffff;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 .recept2{
     background-image: url(images/sushi.jpg);
@@ -63,6 +66,14 @@ notebook/pc:
 }
 .recept5{
     background-image: url(images/grilovani.jpg);
+}
+.recept2,
+.recept3,
+.recept4,
+.recept5{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 }
 .recept{
     min-height: 200px;
